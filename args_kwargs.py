@@ -9,7 +9,7 @@ def alias(*args, **kwargs):
     print('kwargs=', kwargs)
     return
 
-alias(3, 23, 3, 3,a='hello',b=3,c='C')
+alias(3, 23, 3, 3, a = 'hello', b = 3, c = 'C')
 
 """
 输出：
@@ -22,4 +22,4 @@ kwargs= {'b': 3, 'c': 'C', 'a': 'hello'}
 """
 
 # 具体参考资料
-webbrowser.open('http://www.tantengvip.com/2015/07/python-args-kwargs/', 1)
+#webbrowser.open('http://www.tantengvip.com/2015/07/python-args-kwargs/', 1)
